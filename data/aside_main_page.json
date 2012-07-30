@@ -1,0 +1,80 @@
+{
+    "socialNetworks":[
+        {
+            "description": "twitter",
+            "url" : "index.html"
+        },
+        {   "description": "lj",
+            "url" : "index.html"
+        },
+        {   "description": "youtube",
+            "url" : "index.html"
+        },
+        {   "description": "facebook",
+            "url" : "index.html"
+        },
+        {   "description": "vk",
+            "url" : "index.html"
+        }
+    ],
+
+    "foto":[
+        {
+            "description": "Фото",
+            "url":"http://afishalviv.net/php_uploads/images/articleimages/rcarousel_ArticleImages_6524_FanARTia_(1).jpg",
+            "name": "FаnARTia: Electronic Day"
+        }
+    ],
+    "smallFoto": [
+        {
+            "description": "Фото1",
+            "url":"http://afishalviv.net/php_uploads/images/articleimages/rcarousel_ArticleImages_6523_fanart_(1).jpg",
+            "name": "FаnARTia jazz style"
+        },
+        {
+            "description": "Фото2",
+            "url":"http://afishalviv.net/php_uploads/images/articleimages/rcarousel_ArticleImages_6519_FanART-0059_(copy).jpg",
+            "name": "FаnARTia етно-стиль"
+        }
+    ],
+    "all_topics": [
+        { "description": "Усі новини",   "url":"index.html"}
+    ],
+    "smallBanner": [
+        { "url": "http://ad.visitlviv.net/www/images/23b35093566d572e2888a55b2dbe8807.gif"}
+    ],
+    "bigBanner": [
+        { "url": "http://ad.visitlviv.net/www/images/95b66efeb912a110eeff1e785df09c56.gif"}
+    ],
+    "video": [
+        {
+            "description": "ВІДЕО",
+            "url":"http://afishalviv.net/php_uploads/images/articleimages/right_ArticlePortletImage_6456.jpg",
+            "name": "Євро 2012 у Львові: 10 супер відео про німців та португальців"
+        }
+    ],
+    "smallVideo": [
+        {
+            "description": "Фото1",
+            "url":"http://afishalviv.net/php_uploads/images/articleimages/right_ArticlePortletImage_6434.jpg",
+            "name": "Only in Lemberg - новий відео-хіт про Львів"
+        },
+        {
+            "description": "Фото2",
+            "url":"http://afishalviv.net/php_uploads/images/articleimages/right_ArticlePortletImage_6373.png",
+            "name": "Відомі львів'яни звернулися із закликом бути привітним до гостей Львова"
+        }
+    ],
+    "all_topics": [
+        { "description": "Усі новини",   "url":"index.html"}
+    ],
+    "icons icons-comments": [
+        { "description": "КОМЕНТАРІ"},
+        { "description": "йдемо до цілі, якої не бачимо, бо вона – примарна. Минаємо тих, хто найбільше нас любить, бо ми – ег.." },
+        { "description": "Я 09-07-2012 00:00"},
+        { "description": "Криза", "url": "http:/"},
+        { "description": "Захід 8-12 серпня? В групі Заходу вк пише - 17-19 серпня"},
+        { "description": "Леся 05-07-2012 20:05"},
+        { "description": "Фестивальне літо 2012 (ІНФОГРАФІКА)", "url": "http:/"}
+    ]
+}

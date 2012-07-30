@@ -1,0 +1,22 @@
+{
+    "mainNavFoot": [
+        { "url":"http:/", "description":"Афіша"},
+        { "url":"http:/", "description":"Локації"},
+        { "url":"http:/", "description":"Новини"},
+        { "url":"http:/", "description":"Фото"},
+        { "url":"http:/", "description":"Відео"},
+        { "url":"http:/", "description":"Туристу"}
+    ],
+    "aboutNavFoot": [
+        { "url":"http:/", "description":"Про проект" },
+        { "url":"http:/", "description":"RSS" }
+
+    ],
+    "copyright": [
+        { "url":"http:/", "description":"Використання матеріалів" },
+        { "url":"http:/", "description":"РЕКЛАМА НА САЙТІ" }
+    ],
+    "icons-e-design": [
+        { "url":"http:/"}
+    ]
+}

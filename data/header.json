@@ -1,0 +1,19 @@
+{
+    "ourSite":[
+        {"description": "Мапа сайту", "url" : "index.html"},
+        {"description": "РЕКЛАМА НА САЙТІ", "url" : "index.html"}
+    ],
+    "main_navigation":[
+        {"description": "АФІША",   "url":"index.html"},
+        {"description": "ЛОКАЦІЇ", "url":"index.html"},
+        {"description": "НОВИНИ",  "url":"index.html"},
+        {"description": "ФОТО",    "url":"index.html"},
+        {"description": "ВІДЕО",   "url":"index.html"},
+        {"description": "ТУРИСТУ", "url":"index.html"}
+    ],
+    "about_navigation": [
+        {"description": "Львів у 3D", "url":"index.html"},
+        {"description": "Мапа Львова", "url":"index.html"},
+        {"description": "Про проект", "url":"index.html"}
+    ]
+}

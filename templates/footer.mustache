@@ -1,0 +1,31 @@
+<div id="navigation">
+    <nav class="mainNavFoot">
+        {{#mainNavFoot}}
+            <a href="{{url}}">{{description}}</a>
+        {{/mainNavFoot}}
+    </nav>
+    <nav class="aboutNavFoot">
+        {{#aboutNavFoot}}
+            <a href="{{url}}">{{description}}</a>
+        {{/aboutNavFoot}}
+    </nav>
+</div>
+<footer>
+    <div class="copyright">
+         <p>
+            © VisitLviv 2009-2012.
+            <br>
+            Усі права застережено
+         </p>
+         <nav>
+            {{#copyright}}
+                <a href="{{url}}">{{description}}</a>
+            {{/copyright}}
+        </nav>
+        <div class="icons-e-design">
+            {{#icons-e-design}}
+                <a href="{{url}}"></a>
+            {{/icons-e-design}}
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>AfishLviv.net</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="style/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="js/mustache.js"></script>
+        <script src="js/common.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <header id="header" class="span12"></header>
+            <aside id="content" class="span8"></aside>
+
+            <aside id="aside_main_page" class="span4"></aside>
+            <footer id="footer" class="span12"></footer>
+        </div>
+    </body>
+</html>
+<script>
+    renderPage(
+            "data/header.json",
+            "templates/header.mustache",
+            $("#header"));
+
+    renderPage(
+            "data/header.json",
+            "templates/content.mustache",
+            $("#content"));
+
+
+    renderPage(
+            "data/header.json",
+            "templates/aside_main_page.mustache",
+            $("#aside_main_page"));
+
+    renderPage(
+            "data/footer.json",
+            "templates/footer.mustache",
+            $("#footer"));
+</script>

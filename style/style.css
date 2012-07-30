@@ -1,0 +1,91 @@
+
+
+body                    { background: #fbb450; font-family: Arial; font-size: 11px; color: #000000; }
+h1, h1 a, h2 a          { color: #C6000A; font-family: Trebuchet MS; font-size: 22px; font-weight: bold; }
+h3 a                    { color: #343434; font-family: Trebuchet MS; font-size:	20px; font-weight: normal; }
+h4 a                    { font-family: Arial; font-size: 18px; color: #000000; }
+h5 a                    { font-family: Arial; font-size: 11px; color: #000000; }
+header                  { margin-bottom: 10px; }
+header h3               { border-bottom:  1px dashed #D5D5D5; }
+
+#logo, #search          { margin-top: 15px; }
+.well                   { padding: 10px; border-radius: 0; border: none; }
+.input                  { width: 245px; }
+.btn                    { width: 25px; height: 25px; background: url(../data/img/search.jpg) no-repeat; float: right;}
+#ourSite                { float: right; }
+.navigation             { border-top: 1px solid black; border-bottom: 1px dashed black; padding: 10px 0 27px; }
+.mainNav                { float: left; font-family: Trebuchet MS; font-size: 17px; font-weight: bold; }
+.aboutNav               { float: right;}
+.mainNav a              { background: url(../data/img/middle_icons.jpg) no-repeat; padding-left: 23px; padding-right: 5px; }
+.aboutNav a             { background: url(../data/img/small_icons.jpg) no-repeat; padding-left: 20px;}
+
+article                 { border-bottom: 1px dashed #D5D5D5; }
+.left                   { float: left; padding: 10px 10px 0 0;  }
+.italic                 { font-size: 13px; font-style: italic; }
+.nameEvents a           { display:block; font-size: 13px; padding: 2px 0; border-bottom:  1px dashed #D5D5D5; color: #000000;}
+.nameEvents a:hover     { background: #000000; color: white;}
+.all_topics a           { color: #C6000A; font-size: 11px; border: none; }
+
+
+#selebrate,
+#exhibition,
+#cinema,
+#party,
+#theatre,
+#presentation,
+#socialNetworks,
+#foto,
+#smallBanner,
+#bigBanner,
+#video,
+#coment                 {  border: 10px solid #F0F0F0; padding: 10px; }
+
+#selebrate,
+#exhibition,
+#cinema,
+#party,
+#theatre,
+#presentation           { border-top: none;}
+
+#socialNetworks,
+#smallBanner,
+#bigBanner              { padding: 0; }
+
+#socialNetworks,
+#foto,
+#smallBanner,
+#bigBanner,
+#video,
+#coment                 { margin: 0 0 10px 0; }
+
+#foto [class*="span"],
+#video [class*="span"]  { margin-left: 0; }
+.smallFoto,
+.smallVideo             { margin-left: 20px; }
+
+#newsList               { float: right; margin: 15px 0 5px 5px; border: 1px dashed #D5D5D5; }
+#newsList article       { padding: 15px; border-bottom: 1px dashed #D5D5D5; }
+
+.icons                  { background: no-repeat scroll 3px 9px transparent; padding-left: 33px;}
+
+.icons-photo            { background-image: url(../data/img/foto_icons.jpg);}
+.icons-video            { background-image: url(../data/img/video_icons.jpg);}
+.icons-comments         { background-image: url(../data/img/komments_icons.jpg) }
+.icons-afisha           { background-image: url(../data/img/afisha_icons.jpg) }
+.icons-vybrane          { background-image: url(../data/img/vybrane_icons.jpg) }
+.icons-e-design         { width: 58px; height: 17px; background-image: url(../data/img/e_design.gif); float: right;}
+
+
+#afisha                 { background-color: #F0F0F0; margin-top: 15px; }
+#socialNetworks         { background-color: #F0F0F0; }
+#socialNetworks a       { float: left}
+.twitter                { margin-left: 5px; width: 57px; height: 16px; border: none; background: url(../data/img/twitter.gif) no-repeat; }
+.lj                     { margin-left: 5px; width: 31px; height: 16px; border: none; background: url(../data/img/lj.gif) no-repeat; }
+.youtube                { margin-left: 5px; width: 62px; height: 16px; border: none; background: url(../data/img/youtube.gif) no-repeat; }
+.facebook               { margin-left: 5px; width: 68px; height: 16px; border: none; background: url(../data/img/facebook.gif) no-repeat; }
+.vk                     { width: 33px; height: 16px; border: none; background: url(../data/img/vk.gif) no-repeat; }
+
+.mainNavFoot a          { background: url(../data/img/down_icons.jpg) no-repeat scroll 2px 3px transparent; float: left; padding-left: 20px; margin-right: 10px;}
+.aboutNavFoot a         { background: url(../data/img/about_icons.jpg) no-repeat scroll 2px 3px transparent; float: right; padding-left: 20px; margin-right: 10px;}
+.copyright p            { float: left; margin: 10px;color: #898989 }
+.copyright a            { float: left; margin: 10px; }
