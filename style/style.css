@@ -22,10 +22,11 @@ header h3               { border-bottom:  1px dashed #D5D5D5; }
 article                 { border-bottom: 1px dashed #D5D5D5; }
 .left                   { float: left; padding: 10px 10px 0 0;  }
 .italic                 { font-size: 13px; font-style: italic; }
-.nameEvents a           { display:block; font-size: 13px; padding: 2px 0; border-bottom:  1px dashed #D5D5D5; color: #000000;}
+.nameEvents a           { text-decoration: none; display:block; font-size: 13px; padding: 2px 0; border-bottom:  1px dashed #D5D5D5; color: #000000;}
 .nameEvents a:hover     { background: #000000; color: white;}
 .all_topics a           { color: #C6000A; font-size: 11px; border: none; }
 
+#main_navigation        { color: #000000; font-family: Trebuchet MS; font-size: 1em; font-weight: bold; text-transform: uppercase; }
 
 #selebrate,
 #exhibition,
@@ -89,3 +90,12 @@ article                 { border-bottom: 1px dashed #D5D5D5; }
 .aboutNavFoot a         { background: url(../data/img/about_icons.jpg) no-repeat scroll 2px 3px transparent; float: right; padding-left: 20px; margin-right: 10px;}
 .copyright p            { float: left; margin: 10px;color: #898989 }
 .copyright a            { float: left; margin: 10px; }
+
+
+#afisha_page            { border: 10px solid #F0F0F0; padding: 10px;}
+#afisha_page article    { padding: 25px;}
+.submenu a              { color: #000000;}
+.submenu a:hover        { background: black; color: white;}
+
+#location_page          {}
+#location_page article  { padding: 10px;}

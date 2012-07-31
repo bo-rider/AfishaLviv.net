@@ -7,11 +7,18 @@
 
     <section id="foto">
         {{#foto}}
-            <h1> <a href="{{url}}">{{description}}</a></h1>
+            <h1 class="icons icons-photo">
+                {{#icons icons-photo}}
+                    <a href="{{url}}">{{description}}</a>
+                {{/icons icons-photo}}
+                    <article>
+                        <img src="{{url}}"/>
+                        <a href="{{url}}">{{description}}</a>
+                    </article>
         {{/foto}}
         <article>
-           <img src="{{url}}"/>
-            <h4> <a href="{{url}}">{{description}}</a></h4>
+            <img src="{{url}}"/>
+            <a href="{{url}}">{{description}}</a>
         </article>
         <h1 class="icons icons-photo"><a href="#">ФОТО</a></h1>
         <article>
@@ -22,8 +29,8 @@
         <section class="row">
             <article class="span2">
                 <div class="smallFoto">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/rcarousel_ArticleImages_6523_fanart_(1).jpg"/>
-                    <h5><a href="#">FаnARTia jazz style</a></h5>
+                    <img src="http://afishalviv.net/php_uploads/images/articleimages/rcarousel_ArticleImages_6519_FanART-0059_(copy).jpg"/>
+                    <h5><a href="#">FаnARTia етно-стиль</a></h5>
                 </div>
             </article>
             <article class="span2">
@@ -73,7 +80,6 @@
         <footer class="all_topics"><a href="#">Усі новини</a></footer>
     </section>
     <section id="coment">
-
         <h1 class="icons icons-comments">КОМЕНТАРІ</h1>
         <article>
             <p class="italic">йдемо до цілі, якої не бачимо, бо вона – примарна. Минаємо тих, хто найбільше нас

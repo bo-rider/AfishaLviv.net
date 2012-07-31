@@ -4,8 +4,8 @@
         {"description": "РЕКЛАМА НА САЙТІ", "url" : "index.html"}
     ],
     "main_navigation":[
-        {"description": "АФІША",   "url":"index.html"},
-        {"description": "ЛОКАЦІЇ", "url":"index.html"},
+        {"description": "АФІША",   "url":"afisha.html"},
+        {"description": "ЛОКАЦІЇ", "url":"location.html"},
         {"description": "НОВИНИ",  "url":"index.html"},
         {"description": "ФОТО",    "url":"index.html"},
         {"description": "ВІДЕО",   "url":"index.html"},
