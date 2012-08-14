@@ -6,14 +6,31 @@
     "main_navigation":[
         {"description": "АФІША",   "url":"afisha.html"},
         {"description": "ЛОКАЦІЇ", "url":"location.html"},
-        {"description": "НОВИНИ",  "url":"index.html"},
-        {"description": "ФОТО",    "url":"index.html"},
-        {"description": "ВІДЕО",   "url":"index.html"},
-        {"description": "ТУРИСТУ", "url":"index.html"}
+        {"description": "НОВИНИ",  "url":"news.html"},
+        {"description": "ФОТО",    "url":"photo.html"},
+        {"description": "ВІДЕО",   "url":"video.html"},
+        {"description": "ТУРИСТУ", "url":"tourist.html"}
     ],
     "about_navigation": [
         {"description": "Львів у 3D", "url":"index.html"},
         {"description": "Мапа Львова", "url":"index.html"},
         {"description": "Про проект", "url":"index.html"}
-    ]
+    ],
+    "context_navigation": {
+        "context_name": "Локації",
+            "context_links": [
+                { "name":"Всі локації", "url":"#" },
+                { "name":"Кнайпи", "url":"#" },
+                { "name":"Галереї", "url":"#" },
+                { "name":"Музеї", "url":"#" },
+                { "name":"Театри", "url":"#" },
+                { "name":"Кіно", "url":"#" },
+                { "name":"Клуби", "url":"#" },
+                { "name":"Інші заклади", "url":"#" }
+            ],
+        "context_name": "Афіша",
+            "context_links": [
+                { "name":"Всі події", "url":"#" }
+            ]
+    }
 }

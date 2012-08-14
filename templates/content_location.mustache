@@ -1,92 +1,100 @@
 <div class="row">
     <section id="location_page" class="span8">
-        <div>
-            <h2>Всі локації</h2>
+
+          <div>
+              <h2>Всі локації</h2>
+              {{#location_page}}
+                  <article>
+                      <p class="left">
+                          <img src="{{img}}"/>
+                      </p>
+                      <h4><a href="{{url}}">{{title}}</a></h4>
+                      {{{description}}}
+                      <span class="time">{{time}}</span>
+                  </article>
+              {{/location_page}}
+          </div>
+
+          <!--
             <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5198.jpg"/>
-                </p>
-                <h4><a href="#">Щось цікаве</a></h4>
-                    <p>Галерея під відкритим небом, що робить її ще більш не звичною та цікавою для львівян та гостей міста.</p>
-                    <p>щодня з 10:30 до 20:30</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5917.jpg"/>
-                </p>
-                <h4><a href="#">Зеник. Гламур</a></h4>
-                    <p>"ЗЕНИК" - це паб в теплому домашньому стилі з прив'язкою до прикордонних служб Західного регіону та головним героєм якого є Зеник Митник.</p>
-                    <p>09:00 – 24:00</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/im/60x60.jpg"/>
-                </p>
-                <h4><a href="#">Палац Потоцьких</a></h4>
-                    <p>Колишній палац Потоцьких – яскравий зразок палацової архітектури зрілого історизму, одна з найцікавіших архітектурних пам’яток Львова і України взагалі</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_194.jpg"/>
-                </p>
-                <h4><a href="#">I like</a></h4>
-                    <p>I Like – чи не перший іноземний заклад у Львові в форматі coffee-to-go</p>
-                    <p>08:00-23:00</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_4331.jpg"/>
-                </p>
-                <h4><a href="#">Арт-музей "Сало"</a></h4>
-                    <p>Львівський музей актуального мистецтва.</p>
-                    <p>11.00 - 23.00</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5931.jpg"/>
-                </p>
-                <h4><a href="#">Oops. Drinks & Music</a></h4>
-                    <p>Party-bar недалеко від центру міста, який поєднує функції вечірньої молодіжної кафешки та невеликого нічного клубу.</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_718.jpg"/>
-                </p>
-                <h4><a href="#">Кав'ярня-галерея "Штука"</a></h4>
-                    <p>Кав'ярня-галерея "Штука" розпочала свою роботу у квітні 2009 року, основна ідея та настрій кав'ярні - можливість поринути в мистецьку атмосферу Австро-Угорського Львова</p>
-                    <p>9.00 - 22.00</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5574.png"/>
-                </p>
-                <h4><a href="#">Культ Live Music Club</a></h4>
-                    <p>Культ Live Music Club – це місце «живого» виступу професійних музикантів, ансамблів та гуртів – гостей з усього світу.</p>
-                    <p>з 12:00 до 2:00</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_26.jpg"/>
-                </p>
-                <h4><a href="#">Кумпель</a></h4>
-                    <p>Перший у Львові ресторан-пивоварня – пиво варять у підвальному поверсі закладу.</p>
-                    <p>00:00-24:00</p>
-            </article>
-            <article>
-                <p class="left">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5918.jpg"/>
-                </p>
-                <h4><a href="#">Львівська копальня кави</a></h4>
-                    <p>У палаці Любомирських на пл. Ринку відкрили книгарню-кав'ярню – "Львівська копальня кави".</p>
-                    <p>08:00 – 23:00</p>
-            </article>
-            <article id="locationNav">
-                <nav>
-                    {{#locationNav}}
-                        <a href="{{url}}">{{description}}</a>
-                    {{/locationNav}}
-                </nav>
-            </article>
-        </div>
+          <p class="left">
+            <img src=""/>
+          </p>
+          <h4><a href="#">Зеник. Гламур</a></h4>
+          <p>"ЗЕНИК" - це паб в теплому домашньому стилі з прив'язкою до прикордонних служб Західного регіону та головним героєм якого є Зеник Митник.</p>
+          <p>09:00 – 24:00</p>
+        </article>
+          <article>
+            <p class="left">
+              <img src="http://afishalviv.net/im/60x60.jpg"/>
+            </p>
+            <h4><a href="#">Палац Потоцьких</a></h4>
+            <p>Колишній палац Потоцьких – яскравий зразок палацової архітектури зрілого історизму, одна з найцікавіших архітектурних пам’яток Львова і України взагалі</p>
+          </article>
+          <article>
+            <p class="left">
+              <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_194.jpg"/>
+            </p>
+            <h4><a href="#">I like</a></h4>
+            <p>I Like – чи не перший іноземний заклад у Львові в форматі coffee-to-go</p>
+            <p>08:00-23:00</p>
+          </article>
+          <article>
+            <p class="left">
+              <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_4331.jpg"/>
+            </p>
+            <h4><a href="#">Арт-музей "Сало"</a></h4>
+            <p>Львівський музей актуального мистецтва.</p>
+            <p>11.00 - 23.00</p>
+          </article>
+          <article>
+            <p class="left">
+              <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5931.jpg"/>
+            </p>
+            <h4><a href="#">Oops. Drinks & Music</a></h4>
+            <p>Party-bar недалеко від центру міста, який поєднує функції вечірньої молодіжної кафешки та невеликого нічного клубу.</p>
+          </article>
+          <article>
+            <p class="left">
+              <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_718.jpg"/>
+            </p>
+            <h4><a href="#">Кав'ярня-галерея "Штука"</a></h4>
+            <p>Кав'ярня-галерея "Штука" розпочала свою роботу у квітні 2009 року, основна ідея та настрій кав'ярні - можливість поринути в мистецьку атмосферу Австро-Угорського Львова</p>
+            <p>9.00 - 22.00</p>
+          </article>
+          <article>
+            <p class="left">
+              <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5574.png"/>
+            </p>
+            <h4><a href="#">Культ Live Music Club</a></h4>
+            <p>Культ Live Music Club – це місце «живого» виступу професійних музикантів, ансамблів та гуртів – гостей з усього світу.</p>
+            <p>з 12:00 до 2:00</p>
+          </article>
+          <article>
+            <p class="left">
+              <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_26.jpg"/>
+            </p>
+            <h4><a href="#">Кумпель</a></h4>
+            <p>Перший у Львові ресторан-пивоварня – пиво варять у підвальному поверсі закладу.</p>
+            <p>00:00-24:00</p>
+          </article>
+          <article>
+            <p class="left">
+              <img src="http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5918.jpg"/>
+            </p>
+            <h4><a href="#">Львівська копальня кави</a></h4>
+            <p>У палаці Любомирських на пл. Ринку відкрили книгарню-кав'ярню – "Львівська копальня кави".</p>
+            <p>08:00 – 23:00</p>
+          </article>
+          -->
+          <article id="locationNav">
+            <nav>
+              {{#locationNav}}
+              <a href="{{url}}">{{description}}</a>
+              {{/locationNav}}
+            </nav>
+          </article>
+
+
     </section>
 </div>

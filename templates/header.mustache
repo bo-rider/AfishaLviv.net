@@ -1,7 +1,7 @@
 <div class="row">
 <img src="http://ad.visitlviv.net/www/images/6f92408ff6a51088ec186d636f4b35f9.gif"/>
     <div id="logo" class="span8">
-        <a href="http://afishalviv.net/"><img src="http://afishalviv.net/im/logo.png"></a>
+        <a href="http://index.html"><img src="http://afishalviv.net/im/logo.png"></a>
     </div>
         <div id="search" class="span4">
             <form class="well form-search">
@@ -21,7 +21,7 @@
         <div id="main_navigation">
             <nav>
                 {{#main_navigation}}
-                <a href="{{url}}">{{description}}</a>
+                    <a href="{{url}}">{{description}}</a>
                 {{/main_navigation}}
             </nav>
         </div>
@@ -33,4 +33,14 @@
             </nav>
         </div>
     </nav>
+
+    {{#context_navigation}}
+        <div id="context_navigation">
+            <h2>{{context_name}}</h2>
+                {{#context_links}}
+                    <a href="{{url}}">{{name}}</a>
+                {{/context_links}}
+        </div>
+    {{/context_navigation}}
+
 </div>

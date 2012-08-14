@@ -1,17 +1,73 @@
 {
+    "location_page": [
+        {
+          "img": "http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5198.jpg",
+          "title": "Щось цікаве",
+          "url":"#",
+          "description": "<p>Галерея під відкритим небом, що робить її ще більш не звичною та цікавою для львівян та гостей міста.</p>",
+          "time": "щодня з 10:30 до 20:30"
+        },
+        {
+          "img": "http://afishalviv.net/php_uploads/images/articleimages/ArticleLogo_5917.jpg",
+          "title": "Зеник. Гламур",
+          "url":"#",
+          "description": "ЗЕНИК - це паб в теплому домашньому стилі з прив'язкою до прикордонних служб Західного регіону та головним героєм якого є Зеник Митник.",
+          "time": "09:00 – 24:00"
+        }
+    ],
     "locationNav": [
-        {"description": "1", "url" : "index.html"},
-        {"description": "2", "url" : "#"},
-        {"description": "3", "url" : "#"},
-        {"description": "4", "url" : "#"},
-        {"description": "5", "url" : "#"},
-        {"description": "6", "url" : "#"},
-        {"description": "7", "url" : "#"},
-        {"description": "8", "url" : "#"},
-        {"description": "9", "url" : "#"},
-        {"description": "10", "url" : "#"},
-        {"description": "11", "url" : "#"},
-        {"description": "12", "url" : "#"},
-        {"description": "`3", "url" : "#"}
+        {
+          "description": "1",
+          "url": "#"
+        },
+        {
+          "description": "2",
+          "url": "#"
+        },
+        {
+          "description": "3",
+          "url": "#"
+        },
+        {
+          "description": "4",
+          "url": "#"
+        },
+        {
+          "description": "5",
+          "url": "#"
+        },
+        {
+          "description": "6",
+          "url": "#"
+        },
+        {
+          "description": "7",
+          "url": "#"
+        },
+        {
+          "description": "8",
+          "url": "#"
+        },
+        {
+          "description": "9",
+          "url": "#"
+        },
+        {
+          "description": "10",
+          "url": "#"
+        }
+        ,
+        {
+          "description": "11",
+          "url": "#"
+        },
+        {
+         "description": "12",
+          "url": "#"
+        },
+        {
+          "description": "13",
+          "url": "#"
+        }
     ]
 }

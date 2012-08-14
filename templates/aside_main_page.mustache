@@ -5,95 +5,57 @@
         {{/socialNetworks}}
     </nav>
 
-    <section id="foto">
-        {{#foto}}
-            <h1 class="icons icons-photo">
-                {{#icons icons-photo}}
-                    <a href="{{url}}">{{description}}</a>
-                {{/icons icons-photo}}
-                    <article>
+    <section id="photo">
+        {{#photo}}
+            <h1>{{title}}</h1>
+            <img src="{{url}}"/>{{title_description}}
+                <article class="smallPhoto">
+                    {{#smallPhoto}}
                         <img src="{{url}}"/>
-                        <a href="{{url}}">{{description}}</a>
-                    </article>
-        {{/foto}}
-        <article>
-            <img src="{{url}}"/>
-            <a href="{{url}}">{{description}}</a>
-        </article>
-        <h1 class="icons icons-photo"><a href="#">ФОТО</a></h1>
-        <article>
-            <img src="http://afishalviv.net/php_uploads/images/articleimages/rcarousel_ArticleImages_6524_FanARTia_(1).jpg"/>
-            <h4><a href="#">FаnARTia: Electronic Day</a></h4>
-        </article>
-
-        <section class="row">
-            <article class="span2">
-                <div class="smallFoto">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/rcarousel_ArticleImages_6519_FanART-0059_(copy).jpg"/>
-                    <h5><a href="#">FаnARTia етно-стиль</a></h5>
-                </div>
-            </article>
-            <article class="span2">
-                <div class="smallFoto">
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/rcarousel_ArticleImages_6519_FanART-0059_(copy).jpg"/>
-                    <h5><a href="#">FаnARTia етно-стиль</a></h5>
-                </div>
-            </article>
-        </section>
-
-        <footer class="all_topics"><a href="#">Усі новини</a></footer>
+                        <a href="{{url}}">{{name}}</a>
+                    {{/smallPhoto}}
+                </article>
+        {{/photo}}
+        <footer class="all_topics">
+            {{#all_topics}}
+                <a href="{{url}}">{{news}}</a>
+            {{/all_topics}}
+        </footer>
     </section>
+
     <section id="smallBanner">
-
-        <img src="http://ad.visitlviv.net/www/images/23b35093566d572e2888a55b2dbe8807.gif"/>
-
+        {{#smallBanner}}
+            <img src="{{url}}"/>
+        {{/smallBanner}}
     </section>
+
     <section id="bigBanner">
-
-        <img src="http://ad.visitlviv.net/www/images/95b66efeb912a110eeff1e785df09c56.gif"/>
-
+        {{#bigBanner}}
+            <img src="{{url}}"/>
+        {{/bigBanner}}
     </section>
+
     <section id="video">
-        <h1 class="icons icons-video"><a href="#">ВІДЕО</a></h1>
-        <article>
-            <img src="http://afishalviv.net/php_uploads/images/articleimages/right_ArticlePortletImage_6456.jpg"/>
-            <h4><a href="#">Євро 2012 у Львові: 10 супер відео про німців та португальців</a></h4>
-        </article>
-        <section class="row">
-            <article class="span2">
-                <div class="smallVideo">
-
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/right_ArticlePortletImage_6434.jpg"/>
-                    <h5><a href="#">Only in Lemberg - новий відео-хіт про Львів</a></h5>
-                </div>
-            </article>
-            <article class="span2">
-                <div class="smallVideo">
-
-                    <img src="http://afishalviv.net/php_uploads/images/articleimages/right_ArticlePortletImage_6373.png"/>
-                    <h5><a href="#">Відомі львів'яни звернулися із закликом бути привітним до гостей Львова</a></h5>
-                </div>
-            </article>
-
-        </section>
-
-        <footer class="all_topics"><a href="#">Усі новини</a></footer>
+        {{#video}}
+            <h1>{{title}}</h1>
+                <img src="{{url}}"/>{{title_description}}
+                <article class="smallVideo">
+                    {{#smallVideo}}
+                        <img src="{{url}}"/>
+                        <a href="{{url}}">{{name}}</a>
+                    {{/smallVideo}}
+                </article>
+        {{/video}}
+        <footer class="all_topics">
+            {{#all_topics}}
+                <a href="{{url}}">{{news}}</a>
+            {{/all_topics}}
+        </footer>
     </section>
-    <section id="coment">
-        <h1 class="icons icons-comments">КОМЕНТАРІ</h1>
-        <article>
-            <p class="italic">йдемо до цілі, якої не бачимо, бо вона – примарна. Минаємо тих, хто найбільше нас
-                любить, бо ми – ег...</p>
-            <p>Я 09-07-2012 00:00</p>
-
-            <p class="all_topics"><a href="#">Криза</a></p>
-        </article>
-        <article>
-            <p class="italic">Захід 8-12 серпня? В групі Заходу вк пише - 17-19 серпня</p>
-            <p>Леся 05-07-2012 20:05 </p>
-
-            <p class="all_topics"><a href="#">Фестивальне літо 2012 (ІНФОГРАФІКА)</a></p>
-        </article>
-
+    <section id="coments">
+        {{#coments}}
+            <h1>{{title}}</h1>
+            <p>{{author}}</p>
+        {{/coments}}
     </section>
 </aside>
